@@ -1,0 +1,25 @@
+.Form {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 15px;
+  padding: 15px 0;
+}
+
+.Input {
+  color: #41444b;
+  font-size: 20px;
+  border: 1px solid #41444b;
+  padding: 5px 15px;
+  outline: 0;
+  border-radius: 10px;
+  background: #fbf9f1;
+}
+.Input::-moz-selection {
+  color: #fbf9f1;
+  background: #41444b;
+}
+.Input::selection {
+  color: #fbf9f1;
+  background: #41444b;
+}/*# sourceMappingURL=TaskForm.module.css.map */
