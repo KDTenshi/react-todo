@@ -1,0 +1,50 @@
+.Card {
+  background: #f8ede3;
+  border-radius: 10px;
+  border: 1px solid #41444b;
+  padding: 10px 20px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.Text {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.Buttons {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+}
+
+.Title {
+  color: #41444b;
+  font-size: 24px;
+  font-weight: 600;
+}
+.Title::-moz-selection {
+  color: #f8ede3;
+  background: #41444b;
+}
+.Title::selection {
+  color: #f8ede3;
+  background: #41444b;
+}
+
+.Date {
+  color: #41444b;
+  font-size: 16px;
+  margin-left: 10px;
+}
+.Date::-moz-selection {
+  color: #f8ede3;
+  background: #41444b;
+}
+.Date::selection {
+  color: #f8ede3;
+  background: #41444b;
+}/*# sourceMappingURL=TaskCard.module.css.map */

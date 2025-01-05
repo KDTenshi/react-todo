@@ -11,5 +11,5 @@
 }
 
 @mixin Text_Black($fontSize: 16px) {
-  @include Text($fontSize, c.$black, c.$white, c.$blue);
+  @include Text($fontSize, c.$black, c.$white, c.$black);
 }
