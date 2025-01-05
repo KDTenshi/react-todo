@@ -1,0 +1,24 @@
+@use "../../../shared/style/colors" as c;
+
+@import "../../../shared/style/mixins";
+
+.Wrapper {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+  padding: 25px 15px;
+}
+
+.Board {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  background: c.$white;
+}
+
+.Title {
+  @include Text_Black(32px);
+
+  text-align: center;
+  padding-bottom: 10px;
+  border-bottom: 3px solid c.$black;
+}

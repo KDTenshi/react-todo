@@ -1,0 +1,28 @@
+@use "../../../shared/style/colors" as c;
+
+@import "../../../shared/style/mixins";
+
+.List {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  padding: 0 10px;
+}
+
+.Wrapper {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+  padding: 15px 25px;
+  background: c.$white;
+}
+
+.Title {
+  @include Text_Black(24px);
+
+  font-weight: 700;
+
+  &::first-letter {
+    text-transform: uppercase;
+  }
+}
