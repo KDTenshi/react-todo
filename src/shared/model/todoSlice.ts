@@ -24,7 +24,21 @@ export const todoSlice = createSlice({
 
       if (task) task.status = type;
     },
+
+    addTask: (state, action: PayloadAction<string>) => {
+      const title = action.payload;
+      const date = Date.now();
+
+      const newTask: Task = {
+        id: `${title}${date}`,
+        title,
+        status: "idle",
+        date,
+      };
+
+      state.tasks.push(newTask);
+    },
   },
 });
 
-export const { removeTask, switchTask } = todoSlice.actions;
+export const { removeTask, switchTask, addTask } = todoSlice.actions;
