@@ -1,0 +1,15 @@
+@use "./colors" as c;
+
+@mixin Text($fontSize: 16px, $color: c.$black, $selectColor: c.$white, $selectBackground: c.$blue) {
+  color: $color;
+  font-size: $fontSize;
+
+  &::selection {
+    color: $selectColor;
+    background: $selectBackground;
+  }
+}
+
+@mixin Text_Black($fontSize: 16px) {
+  @include Text($fontSize, c.$black, c.$white, c.$blue);
+}
