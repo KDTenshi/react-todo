@@ -1,0 +1,22 @@
+.Button {
+  font-size: 16px;
+  color: #41444b;
+  background: #f8ede3;
+  border: 1px solid #41444b;
+  padding: 5px 10px;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: all 0.25s;
+}
+.Button:hover {
+  box-shadow: 0 0 10px #41444b;
+}
+.Button_Red:hover {
+  background: #ff8a8a;
+}
+.Button_Blue:hover {
+  background: #c5d3e8;
+}
+.Button_Green:hover {
+  background: #b0ebb4;
+}/*# sourceMappingURL=Button.module.css.map */

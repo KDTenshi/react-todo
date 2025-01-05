@@ -1,0 +1,30 @@
+@use "../../style/colors" as c;
+
+@import "../../style/mixins";
+
+.Button {
+  font-size: 16px;
+  color: c.$black;
+  background: c.$white;
+  border: 1px solid c.$black;
+  padding: 5px 10px;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: all 0.25s;
+
+  &:hover {
+    box-shadow: 0 0 10px c.$black;
+  }
+
+  &_Red:hover {
+    background: c.$red;
+  }
+
+  &_Blue:hover {
+    background: c.$blue;
+  }
+
+  &_Green:hover {
+    background: c.$green;
+  }
+}
