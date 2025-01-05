@@ -9,6 +9,7 @@
   display: grid;
   grid-template-columns: repeat(3, 1fr);
   background: #f8ede3;
+  gap: 15px;
 }
 
 .Title {
@@ -19,10 +20,10 @@
   border-bottom: 3px solid #41444b;
 }
 .Title::-moz-selection {
-  color: #f8ede3;
+  color: #fbf9f1;
   background: #41444b;
 }
 .Title::selection {
-  color: #f8ede3;
+  color: #fbf9f1;
   background: #41444b;
 }/*# sourceMappingURL=TaskBoard.module.css.map */

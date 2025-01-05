@@ -13,6 +13,7 @@
   transition: all 0.25s;
 
   &:hover {
+    background: c.$cream;
     box-shadow: 0 0 10px c.$black;
   }
 

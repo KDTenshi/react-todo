@@ -9,8 +9,10 @@
   display: flex;
   flex-direction: column;
   gap: 15px;
-  padding: 15px 25px;
-  background: #f8ede3;
+  padding: 10px 15px;
+  background: #fbf9f1;
+  min-height: 500px;
+  border-radius: 10px;
 }
 
 .Title {
@@ -19,11 +21,11 @@
   font-weight: 700;
 }
 .Title::-moz-selection {
-  color: #f8ede3;
+  color: #fbf9f1;
   background: #41444b;
 }
 .Title::selection {
-  color: #f8ede3;
+  color: #fbf9f1;
   background: #41444b;
 }
 .Title::first-letter {

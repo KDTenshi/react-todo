@@ -1,7 +1,7 @@
 .Button {
   font-size: 16px;
   color: #41444b;
-  background: #f8ede3;
+  background: #fbf9f1;
   border: 1px solid #41444b;
   padding: 5px 10px;
   border-radius: 5px;
@@ -9,6 +9,7 @@
   transition: all 0.25s;
 }
 .Button:hover {
+  background: #f8ede3;
   box-shadow: 0 0 10px #41444b;
 }
 .Button_Red:hover {

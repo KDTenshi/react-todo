@@ -1,5 +1,5 @@
 .Card {
-  background: #f8ede3;
+  background: #fbf9f1;
   border-radius: 10px;
   border: 1px solid #41444b;
   padding: 10px 20px;
@@ -27,11 +27,11 @@
   font-weight: 600;
 }
 .Title::-moz-selection {
-  color: #f8ede3;
+  color: #fbf9f1;
   background: #41444b;
 }
 .Title::selection {
-  color: #f8ede3;
+  color: #fbf9f1;
   background: #41444b;
 }
 
@@ -41,10 +41,10 @@
   margin-left: 10px;
 }
 .Date::-moz-selection {
-  color: #f8ede3;
+  color: #fbf9f1;
   background: #41444b;
 }
 .Date::selection {
-  color: #f8ede3;
+  color: #fbf9f1;
   background: #41444b;
 }/*# sourceMappingURL=TaskCard.module.css.map */

@@ -12,7 +12,8 @@
 .Board {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
-  background: c.$white;
+  background: c.$cream;
+  gap: 15px;
 }
 
 .Title {
